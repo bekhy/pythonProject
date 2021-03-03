@@ -57,19 +57,19 @@ for i in list_c:
     b *= i
 print("Результат перемножения чисел: " + str(b))
 
-# 4(4)
-int_a = 1
-str_a = ""
-dict_a = {}
-list_z = []
-list_az = [1, 4, "3", "8", {"121":121}, {"12":12}, [1, 3, 6, 9, 12], [2, 8, 16, 32, 48]]
-for i in list_az:
-    if i in list_az == int:
-        int_a.append(i)
-    # if i in list_az == "":
-    #     str_a == ""
-    # if i in list_az == {}:
-    #     dict_a == {}
-    # if i in list_az == []:
-    #     list_z.append(i)
-print(i)
+# # 4(4)
+# int_a = 1
+# str_a = ""
+# dict_a = {}
+# list_z = []
+# list_az = [1, 4, "3", "8", {"121":121}, {"12":12}, [1, 3, 6, 9, 12], [2, 8, 16, 32, 48]]
+# for i in list_az:
+#     if i in list_az == int:
+#         int_a.append(i)
+#     # if i in list_az == "":
+#     #     str_a == ""
+#     # if i in list_az == {}:
+#     #     dict_a == {}
+#     # if i in list_az == []:
+#     #     list_z.append(i)
+# print(i)
