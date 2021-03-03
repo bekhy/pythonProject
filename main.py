@@ -30,10 +30,47 @@ else:
 paired = []
 unpaired = []
 other = []
-list = input("Введите список чисел: ")
-list =
+list_a = [1, 3, 4, 5, 6, 8, 9, 12, 14, 15, 18, 22, 25, 28, 30]
+for i in list_a:
+    if i % 2 == 0:
+        paired.append(i)
+    if i % 3 == 0:
+        unpaired.append(i)
+    elif i % 2 != 0 and i % 3 != 0:
+        other.append(i)
+print(paired)
+print(unpaired)
+print(other)
 
 
 # 2(2)
+str_a = input("Введите строку: ")
+sym_b = input("Введите символ: ")
+if sym_b in str_a:
+    print("Этот символ есть в строке!")
+else:
+    print("Этого символа нет в строке!")
+
 # 3(3)
-# 4(4)
+b = 1
+list_c = [1, 23, 3, 54, 8, 17, 34, 21, 9, 13, 19, 20, 30]
+for i in list_c:
+    b *= i
+print("Результат перемножения чисел: " + str(b))
+
+4(4)
+int_a = 1
+str_a = ""
+dict_a = {}
+list_z = []
+list_az = [1, 4, "3", "8", {"121":121}, {"12":12}, [1, 3, 6, 9, 12], [2, 8, 16, 32, 48]]
+for i in list_az:
+    if i in list_az == int:
+        int_a.append(i)
+    # if i in list_az == "":
+    #     str_a == ""
+    # if i in list_az == {}:
+    #     dict_a == {}
+    # if i in list_az == []:
+    #     list_z.append(i)
+print(i)
