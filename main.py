@@ -1,5 +1,4 @@
 # 1
-
 if input("Введите что-то: "):
     print("OK")
 
@@ -58,7 +57,7 @@ for i in list_c:
     b *= i
 print("Результат перемножения чисел: " + str(b))
 
-4(4)
+# 4(4)
 int_a = 1
 str_a = ""
 dict_a = {}
